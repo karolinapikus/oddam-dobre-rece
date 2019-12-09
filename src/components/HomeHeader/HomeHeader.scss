@@ -3,13 +3,13 @@ header {
     .header__image {
         background: url("../../assets/Home-Hero-Image.jpg");
         width: 50%;
-        height: 50vh;
+        height: 60vh;
         background-size: contain;
         background-repeat: no-repeat;
     }
     .header__details {
         width: 50%;
-        height: 50vh;
+        height: 60vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
