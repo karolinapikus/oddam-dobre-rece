@@ -4,6 +4,7 @@ import './Home.scss';
 
 import HomeHeader from "../HomeHeader/HomeHeader"
 import HomeThreeColumns from '../HomeThreeColumns/HomeThreeColumns';
+import HomeSimpleSteps from '../HomeSimpleSteps/HomeSimpleSteps';
 
 class Home extends Component {
     render(){
@@ -11,6 +12,7 @@ class Home extends Component {
             <>
             <HomeHeader />
             <HomeThreeColumns />
+            <HomeSimpleSteps />
             </>
         )
     }
