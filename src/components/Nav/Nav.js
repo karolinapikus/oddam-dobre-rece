@@ -12,11 +12,11 @@ class Nav extends Component {
                         <li><Link to="/zaloz-konto">Załóz konto</Link></li>
                     </ul>
                     <ul className="main__nav">
-                        <li><Scroll to="headerID">Start</Scroll></li>
-                        <li>O co chodzi?</li>
-                        <li>O nas</li>
-                        <li>Fundacja i organizacje</li>
-                        <li>Kontakt</li>
+                        <li><Scroll to="headerID" smooth={true}>Start</Scroll></li>
+                        <li><Scroll to="stepsID" smooth={true}> O co chodzi?</Scroll></li>
+                        <li><Scroll to="aboutID" smooth={true}>O nas</Scroll></li>
+                        <li><Scroll to="whoID" smooth={true}>Fundacja i organizacje</Scroll></li>
+                        <li><Scroll to="contactID" smooth={true}>Kontakt</Scroll></li>
                     </ul>
                 </nav>
         )

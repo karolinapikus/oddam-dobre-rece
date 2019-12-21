@@ -6,7 +6,7 @@ import './HomeAbout.scss';
 class HomeAbout extends Component {
     render(){
         return(
-            <div className="about__container">
+            <div className="about__container" id="aboutID">
                 <div className="about__desc">
                     <h2>O nas</h2>
                     <div className="header-divider"></div>

@@ -6,7 +6,7 @@ import './HomeSimpleSteps.scss';
 class HomeSimpleSteps extends Component {
     render(){
         return(
-            <div className="steps__container">
+            <div className="steps__container" id="stepsID">
             <div className="steps__header">
                 <h2>Wystarczą 4 proste kroki</h2>
                 <div className="header-divider"></div>
