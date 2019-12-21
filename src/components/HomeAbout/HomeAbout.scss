@@ -1,0 +1,40 @@
+.about__container {
+    width: 100%;
+    display: flex;
+    .about__desc {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        background: #f7f7f7;
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            color: #3C3C3C;
+            font-weight: 300;
+        }
+        .header-divider{
+            background: url("../../assets/Decoration.svg");
+            width: 250px;
+            height: 35px;
+            background-repeat: no-repeat;
+            margin: 20px auto;
+        }
+        .about-signature {
+            background: url("../../assets/Signature.svg");
+            width: 250px;
+            height: 150px;
+            margin: 20px 0;
+            align-self: flex-end;
+            background-repeat: no-repeat;
+        }
+    }
+    .about__photo {
+        width: 50%;
+        height: auto;
+        background: url("../../assets/People.jpg");
+        background-position: center;
+
+    }
+}
