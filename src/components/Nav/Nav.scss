@@ -1,0 +1,23 @@
+ul {
+    margin: 10px 0 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    li {
+        margin-left: 15px;
+    }
+    &.small__nav {
+        font-size: 0.75em;
+        li {
+            padding: 0.5em;
+            &:last-child{
+                border: 1px solid #FAD648;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+    }
+}
