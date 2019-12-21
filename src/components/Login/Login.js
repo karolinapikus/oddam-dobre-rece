@@ -24,7 +24,7 @@ class Login extends Component {
     </form>
     <div class="login__links">
     <ul className="login-nav">
-    <li><Link to="/zaloz-konto">Załóz konto</Link></li>
+    <li><Link to="/zaloz-konto">Załóż konto</Link></li>
                         <li><Link to="/zaloguj">Zaloguj się</Link></li>
                         
                     </ul>

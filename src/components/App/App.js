@@ -4,6 +4,7 @@ import './App.scss';
 
 import Home from "../Home/Home"
 import Login from "../Login/Login"
+import Register from "../Register/Register"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/zaloguj" component={Login}/>
+        <Route path="/zaloz-konto" component={Register}/>
       </Switch>
     </Router>
 
