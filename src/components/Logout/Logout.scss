@@ -1,0 +1,46 @@
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    .login__header{
+        margin: 20px auto;
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            color: #3C3C3C;
+            font-weight: 300;
+        }
+        .header-divider{
+            background: url("../../assets/Decoration.svg");
+            width: 250px;
+            height: 35px;
+            background-repeat: no-repeat;
+            margin: 0 auto;
+        }
+    }
+    }
+    .login__links {
+        width: 35%;
+        margin: 20px auto;
+        ul {
+            width: 100%;
+            list-style: none;
+            li {
+                margin: 0 auto;
+            }
+            &.login-nav {
+                font-size: 0.75em;
+                li {
+                    padding: 0.5em;
+                    &:last-child {
+                        border: 1px solid #3C3C3C;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                }
+            }
+        }
+    }

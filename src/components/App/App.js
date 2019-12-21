@@ -5,6 +5,7 @@ import './App.scss';
 import Home from "../Home/Home"
 import Login from "../Login/Login"
 import Register from "../Register/Register"
+import Logout from "../Logout/Logout"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path="/zaloguj" component={Login}/>
         <Route path="/zaloz-konto" component={Register}/>
+        <Route path="/wylogowano" component={Logout}/>
       </Switch>
     </Router>
 
